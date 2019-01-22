@@ -1,0 +1,179 @@
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:Enters the LabMain MAIN method
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:Finished getting choice1
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:Inside Switch case 1
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:Finished inserting dataLABModel [name=Jessica Jones, mail=jessicajones@hotmail.com, phone=9876543459, id=1006, mobile=null, quantity=0, price=null, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:Before hitting the service layer
+2019-01-18-main-INFO -com.cg.lab.service.LabServiceImpl:inside validation
+2019-01-18-main-DEBUG-com.cg.lab.service.LabServiceImpl:Name Regex
+2019-01-18-main-DEBUG-com.cg.lab.service.LabServiceImpl:Name Regex Validation: true
+2019-01-18-main-DEBUG-com.cg.lab.service.LabServiceImpl:Email Regex
+2019-01-18-main-DEBUG-com.cg.lab.service.LabServiceImpl:Email Regex Validation: true
+2019-01-18-main-DEBUG-com.cg.lab.service.LabServiceImpl:Phone Regex
+2019-01-18-main-DEBUG-com.cg.lab.service.LabServiceImpl:Phone Regex Validation: true
+2019-01-18-main-DEBUG-com.cg.lab.service.LabServiceImpl:Passes onto DAO Layer: LABModel [name=Jessica Jones, mail=jessicajones@hotmail.com, phone=9876543459, id=1006, mobile=null, quantity=0, price=null, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:Inside insertDetails
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:connection foundoracle.jdbc.driver.T4CConnection@1b4f649
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:statement createdoracle.jdbc.driver.OraclePreparedStatementWrapper@1ba6d4e
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:Result Set Createdoracle.jdbc.driver.OracleResultSetImpl@1741d6d
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:inside result set
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:quantity28
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:While exit
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:checking qunatity if not zero
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:insert statement is createdoracle.jdbc.driver.OraclePreparedStatementWrapper@ae8e6e
+2019-01-18-main-ERROR-com.cg.lab.dao.LabDaoImpl:ORA-00932: inconsistent datatypes: expected NUMBER got DATE
+
+2019-01-18-main-ERROR-com.cg.lab.main.LabMain:SQL Statement was not created check your exectue query
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:Finished LAB-MAIN
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:Enters the LabMain MAIN method
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:Finished getting choice1
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:Inside Switch case 1
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:Finished inserting dataLABModel [name=Jessica Jones, mail=jessicajone@hotmail.com, phone=9876543211, id=1006, mobile=null, quantity=0, price=null, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:Before hitting the service layer
+2019-01-18-main-INFO -com.cg.lab.service.LabServiceImpl:inside validation
+2019-01-18-main-DEBUG-com.cg.lab.service.LabServiceImpl:Name Regex
+2019-01-18-main-DEBUG-com.cg.lab.service.LabServiceImpl:Name Regex Validation: true
+2019-01-18-main-DEBUG-com.cg.lab.service.LabServiceImpl:Email Regex
+2019-01-18-main-DEBUG-com.cg.lab.service.LabServiceImpl:Email Regex Validation: true
+2019-01-18-main-DEBUG-com.cg.lab.service.LabServiceImpl:Phone Regex
+2019-01-18-main-DEBUG-com.cg.lab.service.LabServiceImpl:Phone Regex Validation: true
+2019-01-18-main-DEBUG-com.cg.lab.service.LabServiceImpl:Passes onto DAO Layer: LABModel [name=Jessica Jones, mail=jessicajone@hotmail.com, phone=9876543211, id=1006, mobile=null, quantity=0, price=null, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:Inside insertDetails
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:connection foundoracle.jdbc.driver.T4CConnection@1b4f649
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:statement createdoracle.jdbc.driver.OraclePreparedStatementWrapper@1ba6d4e
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:Result Set Createdoracle.jdbc.driver.OracleResultSetImpl@1741d6d
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:inside result set
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:quantity28
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:While exit
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:checking qunatity if not zero
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:insert statement is createdoracle.jdbc.driver.OraclePreparedStatementWrapper@ae8e6e
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:result has been created1
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:update statement is createdoracle.jdbc.driver.OraclePreparedStatementWrapper@f2ef19
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:ends insertDetails
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:After hitting the service layer: 1
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:Bill Generated
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:Finished LAB-MAIN
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:Enters the LabMain MAIN method
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:Finished getting choice2
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:Enter switch case 2
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:Before hitting the service layer
+2019-01-18-main-DEBUG-com.cg.lab.service.LabServiceImpl:Enters into DAO layer for getMobiles
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:Enters inside getMobiles
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:connection created
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:statement created
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:result set created
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:LabModel Object createdLABModel [name=null, mail=null, phone=null, id=1000, mobile=Nokia Lumia 520, quantity=20, price=8000.0, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:LabModel Object createdLABModel [name=null, mail=null, phone=null, id=1001, mobile=Samsung Galaxy IV, quantity=37, price=38000.0, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:LabModel Object createdLABModel [name=null, mail=null, phone=null, id=1002, mobile=Sony Xperia C, quantity=29, price=15000.0, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:LabModel Object createdLABModel [name=null, mail=null, phone=null, id=1003, mobile=One Plus 5T, quantity=10, price=38000.0, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:LabModel Object createdLABModel [name=null, mail=null, phone=null, id=1004, mobile=Redmi Note 6 pro, quantity=29, price=21000.0, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:LabModel Object createdLABModel [name=null, mail=null, phone=null, id=1005, mobile=One Plus 5 , quantity=20, price=36000.0, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:LabModel Object createdLABModel [name=null, mail=null, phone=null, id=1006, mobile=One Plus X, quantity=27, price=30000.0, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:LabModel Object createdLABModel [name=null, mail=null, phone=null, id=1029, mobile=MicromaxChi, quantity=29, price=9000.0, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:LabModel Object createdLABModel [name=null, mail=null, phone=null, id=1034, mobile=hitachi, quantity=90, price=9999.0, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:ends getMobiles
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:after hitting the service layer :1000---Nokia Lumia 520---8000.0---20
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:after hitting the service layer :1001---Samsung Galaxy IV---38000.0---37
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:after hitting the service layer :1002---Sony Xperia C---15000.0---29
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:after hitting the service layer :1003---One Plus 5T---38000.0---10
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:after hitting the service layer :1004---Redmi Note 6 pro---21000.0---29
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:after hitting the service layer :1005---One Plus 5 ---36000.0---20
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:after hitting the service layer :1006---One Plus X---30000.0---27
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:after hitting the service layer :1029---MicromaxChi---9000.0---29
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:after hitting the service layer :1034---hitachi---9999.0---90
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:Finished LAB-MAIN
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:Enters the LabMain MAIN method
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:Finished getting choice3
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:Enter switch case 3
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:After accepting value from user: 1034
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:Before hitting the service layer
+2019-01-18-main-DEBUG-com.cg.lab.service.LabServiceImpl:Enters into DAO layer for deleteDetails
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:Enters inside deleteDetails
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:connection created
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:statement created
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:result created1
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:Ends deleteDetails
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:After hitting the service layer1
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:Finished LAB-MAIN
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:Enters the LabMain MAIN method
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:Finished getting choice4
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:Enter switch case 4
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:Min Value from user: 8000.0
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:Max Value from user: 40000.0
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:Before hitting the service layerLABModel [name=null, mail=null, phone=null, id=0, mobile=null, quantity=0, price=null, maxPrice=40000.0, minPrice=8000.0]
+2019-01-18-main-DEBUG-com.cg.lab.service.LabServiceImpl:Enters into DAO layer for serachDetails
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:enters into searchDetails
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:connection created
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:statement created
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:resultSet created
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:labModel object createdLABModel [name=null, mail=null, phone=null, id=1000, mobile=Nokia Lumia 520, quantity=20, price=8000.0, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:labModel object createdLABModel [name=null, mail=null, phone=null, id=1001, mobile=Samsung Galaxy IV, quantity=37, price=38000.0, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:labModel object createdLABModel [name=null, mail=null, phone=null, id=1002, mobile=Sony Xperia C, quantity=29, price=15000.0, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:labModel object createdLABModel [name=null, mail=null, phone=null, id=1003, mobile=One Plus 5T, quantity=10, price=38000.0, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:labModel object createdLABModel [name=null, mail=null, phone=null, id=1004, mobile=Redmi Note 6 pro, quantity=29, price=21000.0, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:labModel object createdLABModel [name=null, mail=null, phone=null, id=1005, mobile=One Plus 5 , quantity=20, price=36000.0, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:labModel object createdLABModel [name=null, mail=null, phone=null, id=1006, mobile=One Plus X, quantity=27, price=30000.0, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:labModel object createdLABModel [name=null, mail=null, phone=null, id=1029, mobile=MicromaxChi, quantity=29, price=9000.0, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:Ends searchDetails
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:After hitting the service layer: 1000----Nokia Lumia 520----8000.0----20
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:After hitting the service layer: 1001----Samsung Galaxy IV----38000.0----37
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:After hitting the service layer: 1002----Sony Xperia C----15000.0----29
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:After hitting the service layer: 1003----One Plus 5T----38000.0----10
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:After hitting the service layer: 1004----Redmi Note 6 pro----21000.0----29
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:After hitting the service layer: 1005----One Plus 5 ----36000.0----20
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:After hitting the service layer: 1006----One Plus X----30000.0----27
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:After hitting the service layer: 1029----MicromaxChi----9000.0----29
+2019-01-18-main-INFO -com.cg.lab.main.LabMain:Finished LAB-MAIN
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:enters into searchDetails
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:connection created
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:statement created
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:resultSet created
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:labModel object createdLABModel [name=null, mail=null, phone=null, id=1000, mobile=Nokia Lumia 520, quantity=20, price=8000.0, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:labModel object createdLABModel [name=null, mail=null, phone=null, id=1002, mobile=Sony Xperia C, quantity=29, price=15000.0, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:labModel object createdLABModel [name=null, mail=null, phone=null, id=1004, mobile=Redmi Note 6 pro, quantity=29, price=21000.0, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:labModel object createdLABModel [name=null, mail=null, phone=null, id=1006, mobile=One Plus X, quantity=27, price=30000.0, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:labModel object createdLABModel [name=null, mail=null, phone=null, id=1029, mobile=MicromaxChi, quantity=29, price=9000.0, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:Ends searchDetails
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:Inside insertDetails
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:connection foundoracle.jdbc.driver.T4CConnection@90e879
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:statement createdoracle.jdbc.driver.OraclePreparedStatementWrapper@40112d
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:Result Set Createdoracle.jdbc.driver.OracleResultSetImpl@1ea9581
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:checking qunatity if not zero
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:ends insertDetails
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:Inside insertDetails
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:connection foundoracle.jdbc.driver.T4CConnection@3e31ee
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:statement createdoracle.jdbc.driver.OraclePreparedStatementWrapper@1dab4eb
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:Result Set Createdoracle.jdbc.driver.OracleResultSetImpl@aa0244
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:checking qunatity if not zero
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:ends insertDetails
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:enters into searchDetails
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:connection created
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:statement created
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:resultSet created
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:labModel object createdLABModel [name=null, mail=null, phone=null, id=1000, mobile=Nokia Lumia 520, quantity=20, price=8000.0, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:labModel object createdLABModel [name=null, mail=null, phone=null, id=1002, mobile=Sony Xperia C, quantity=29, price=15000.0, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:labModel object createdLABModel [name=null, mail=null, phone=null, id=1004, mobile=Redmi Note 6 pro, quantity=29, price=21000.0, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:labModel object createdLABModel [name=null, mail=null, phone=null, id=1006, mobile=One Plus X, quantity=27, price=30000.0, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:labModel object createdLABModel [name=null, mail=null, phone=null, id=1029, mobile=MicromaxChi, quantity=29, price=9000.0, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:Ends searchDetails
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:enters into searchDetails
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:connection created
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:statement created
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:resultSet created
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:labModel object createdLABModel [name=null, mail=null, phone=null, id=1000, mobile=Nokia Lumia 520, quantity=20, price=8000.0, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:labModel object createdLABModel [name=null, mail=null, phone=null, id=1002, mobile=Sony Xperia C, quantity=29, price=15000.0, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:labModel object createdLABModel [name=null, mail=null, phone=null, id=1004, mobile=Redmi Note 6 pro, quantity=29, price=21000.0, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:labModel object createdLABModel [name=null, mail=null, phone=null, id=1006, mobile=One Plus X, quantity=27, price=30000.0, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:labModel object createdLABModel [name=null, mail=null, phone=null, id=1029, mobile=MicromaxChi, quantity=29, price=9000.0, maxPrice=null, minPrice=null]
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:Ends searchDetails
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:Inside insertDetails
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:connection foundoracle.jdbc.driver.T4CConnection@90e879
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:statement createdoracle.jdbc.driver.OraclePreparedStatementWrapper@40112d
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:Result Set Createdoracle.jdbc.driver.OracleResultSetImpl@1ea9581
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:inside result set
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:quantity37
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:While exit
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:checking qunatity if not zero
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:insert statement is createdoracle.jdbc.driver.OraclePreparedStatementWrapper@11f98ef
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:result has been created1
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:update statement is createdoracle.jdbc.driver.OraclePreparedStatementWrapper@137fd5
+2019-01-18-main-INFO -com.cg.lab.dao.LabDaoImpl:ends insertDetails
